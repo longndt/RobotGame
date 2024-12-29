@@ -1,0 +1,8 @@
+robot.direction = "down"
+robot.turn("left")
+robot.go(4)
+robot.turn("right")
+robot.go(4)
+for i in range(3):
+    robot.turn("right")
+    robot.go(9)

@@ -1,0 +1,22 @@
+# Solution 1
+robot.direction = "up"
+robot.turn("right")
+robot.go(2)
+robot.turn("left")
+robot.go(3)
+robot.turn("left")
+robot.go(6)
+robot.turn("left")
+robot.go(4)
+robot.turn("left")
+robot.go(3)
+
+# Solution 2
+robot.direction = "down"
+robot.go(1)
+robot.turn("right")
+robot.go(4)
+robot.turn("right")
+robot.go(4)
+robot.turn("right")
+robot.go(6)

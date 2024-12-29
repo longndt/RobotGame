@@ -1,0 +1,11 @@
+robot.direction = "down"
+robot.turn("left")
+robot.go(4)
+robot.turn("right")
+robot.go(4)
+
+i = 0
+while i < 3:
+    robot.turn("right")
+    robot.go(9)
+    i += 1
